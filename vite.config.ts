@@ -5,6 +5,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/Site_Grupo_MANAS_vFinal/",  // ← adicione esta linha
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
