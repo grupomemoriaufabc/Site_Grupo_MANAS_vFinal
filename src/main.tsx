@@ -8,6 +8,6 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <HashRouter>
       <App />
-    </HashRouterr>
+    </HashRouter>
   </StrictMode>
 );
