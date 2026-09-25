@@ -41,7 +41,7 @@ export const members: {
       researchArea: "Formação de Hábitos e Memória",
       email: "tatiana.ferreira@ufabc.edu.br",
       lattesUrl: "http://lattes.cnpq.br/2557253808540866",
-      portfolioLinks: [],
+      portfolioLinks: [ {label: "Orcid", url:"https://orcid.org/0000-0002-2805-513X"}, {label: "Google Scholar", url: "https://scholar.google.com.br/citations?user=Y21PC30AAAAJ&hl=pt-BR"}],
     },
     {
       name: "Profa. Raquel Fornari",
@@ -111,12 +111,12 @@ export const members: {
     {
       name: "Juliana Camino",
       role: "Iniciação Científica",
-      bio: "Analisa dados de neuroimagem funcional.",
+      bio: "Atualmente realiza ensaio imunohistoquímicos para análise da ativação das principais regiões envolvidas no processo de consolidação da memória de medo.",
       photo: new URL("../assets/juleana.jpg", import.meta.url).href,
-      researchArea: "Neuroimagem",
+      researchArea: "Neurobiologia da memória",
       email: "juliana.castro@aluno.ufabc.edu.br",
       lattesUrl: "http://lattes.cnpq.br/4999113469495676",
-      portfolioLinks: [],
+      portfolioLinks: [{label:"Portfólio", url:"https://orcid.org/0009-0003-4341-1598"}],
     },
     {
       name: "Julio Moreno Possebon",
@@ -126,7 +126,7 @@ export const members: {
       researchArea: "Neuroeducação Computacional",
       email: "julio.m@aluno.ufabc.edu.br",
       lattesUrl: "http://lattes.cnpq.br/9854803057030503",
-      portfolioLinks: [],
+      portfolioLinks: [{label: "Portfólio", url:"https://julio-mp.github.io/"}],
     },
     {
       name: "Krisley Shelly",
@@ -169,7 +169,7 @@ export const members: {
       portfolioLinks: [{label:"Portfólio", url:"https://www.linkedin.com/in/victóriarodriguesbp?utm_source=share_via&utm_content=profile&utm_medium=member_android"}],
     },
     {
-      name: "William Thiago Boscariol Lourenço",
+      name: "William Thiago",
       role: "Iniciação Científica",
       bio: "Processos fisiológicos ligados a sistema de memórias e ao comportamento",
       photo: new URL("../assets/will.jpeg", import.meta.url).href,
