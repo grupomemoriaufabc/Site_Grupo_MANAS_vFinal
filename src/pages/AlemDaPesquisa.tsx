@@ -59,40 +59,7 @@ const AlemDaPesquisa = () => {
         </div>
       </section>
 
-      {/* Section 1 — MANAS pelo Mundo */}
-      <section className="py-20">
-        <div className="section-container">
-          <div className="flex items-end justify-between mb-10">
-            <div>
-              <p className="text-accent font-display font-semibold text-xs tracking-widest uppercase mb-2">
-                MANAS pelo Mundo
-              </p>
-              <h2 className="font-display font-bold text-2xl sm:text-3xl">Fotografias</h2>
-            </div>
-            <span className="text-muted-foreground text-sm font-body hidden sm:block">
-              {worldPhotos.length} {worldPhotos.length === 1 ? "imagem" : "imagens"}
-            </span>
-          </div>
-
-          <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 [column-fill:_balance]">
-            {worldPhotos.map((src, i) => (
-              <figure
-                key={i}
-                className="rounded-xl overflow-hidden mb-4 break-inside-avoid border border-border bg-card"
-              >
-                <img
-                  src={src}
-                  alt={`MANAS pelo Mundo ${String(i + 1).padStart(2, "0")}`}
-                  loading="lazy"
-                  className="w-full h-auto object-cover"
-                />
-              </figure>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section 2 — Projetos de Extensão */}
+      {/* Section 1 — Projetos de Extensão */}
       <section className="py-20 border-t border-border bg-white/[0.02]">
         <div className="section-container">
           <div className="max-w-3xl mb-10">
@@ -153,6 +120,41 @@ const AlemDaPesquisa = () => {
           </div>
         </div>
       </section>
+
+      {/* Section 2 — MANAS pelo Mundo */}
+      <section className="py-20">
+        <div className="section-container">
+          <div className="flex items-end justify-between mb-10">
+            <div>
+              <p className="text-accent font-display font-semibold text-xs tracking-widest uppercase mb-2">
+                MANAS pelo Mundo
+              </p>
+              <h2 className="font-display font-bold text-2xl sm:text-3xl">Fotografias</h2>
+            </div>
+            <span className="text-muted-foreground text-sm font-body hidden sm:block">
+              {worldPhotos.length} {worldPhotos.length === 1 ? "imagem" : "imagens"}
+            </span>
+          </div>
+
+          <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 [column-fill:_balance]">
+            {worldPhotos.map((src, i) => (
+              <figure
+                key={i}
+                className="rounded-xl overflow-hidden mb-4 break-inside-avoid border border-border bg-card"
+              >
+                <img
+                  src={src}
+                  alt={`MANAS pelo Mundo ${String(i + 1).padStart(2, "0")}`}
+                  loading="lazy"
+                  className="w-full h-auto object-cover"
+                />
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      
 
       <Footer />
     </div>
