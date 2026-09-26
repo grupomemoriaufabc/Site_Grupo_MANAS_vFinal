@@ -51,7 +51,7 @@ const AlemDaPesquisa = () => {
             Além da Pesquisa
           </p>
           <h1 className="font-display font-extrabold text-4xl sm:text-5xl mb-4">
-            Além da Pesquisa
+            Além da Pesquisa  
           </h1>
           <p className="max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground font-body">
             Divulgação científica, projetos de extensão e a presença do MANAS Lab pelo mundo.
@@ -64,7 +64,7 @@ const AlemDaPesquisa = () => {
         <div className="section-container">
           <div className="max-w-3xl mb-10">
             <p className="text-accent font-display font-semibold text-xs tracking-widest uppercase mb-2">
-              Projetos de Extensão
+              Neuro pelo Mundo
             </p>
             <h2 className="font-display font-bold text-2xl sm:text-3xl mb-4">
               Projetos de Extensão

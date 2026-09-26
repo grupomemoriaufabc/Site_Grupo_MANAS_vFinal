@@ -24,7 +24,7 @@ const Resources = () => {
         <div className="section-container">
           <div className="mb-10">
             <p className="text-accent font-display font-semibold text-xs tracking-widest uppercase mb-2">Agenda</p>
-            <h2 className="font-display font-bold text-2xl sm:text-3xl">Lab Meetings</h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl">Reuniões do Laboratório</h2>
           </div>
 
           <div className="grid grid-cols-1 gap-6">

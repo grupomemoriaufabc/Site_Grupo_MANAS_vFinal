@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h3 className="font-display font-bold text-xl text-primary-foreground mb-6">
-              Entre em contacto com as orientadoras:
+              Entre em contato com as orientadoras:
             </h3>
             <div className="space-y-3">
               {pis.map((pi) => (
@@ -63,10 +63,10 @@ const Footer = () => {
                 Redes & Informações
               </h3>
               <div className="space-y-3 text-primary-foreground/80 text-sm font-body">
-                <p className="flex items-center gap-2">
+                {/* <p className="flex items-center gap-2">
                   <Mail size={16} className="text-primary-foreground" />
                   grupomemoriaufabc@gmail.com
-                </p>
+                </p>  */}
                 <p className="flex items-center gap-2">
                   <MapPin size={16} className="text-primary-foreground" />
                   Departamento de Neurociência, Universidade

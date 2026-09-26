@@ -44,7 +44,7 @@ const Publications = () => {
             Produção Científica
           </p>
           <h1 className="font-display font-extrabold text-4xl sm:text-5xl mb-4">
-            Publications
+            Publicações
           </h1>
           <p className="max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground font-body">
             Artigos, revisões e pré-prints publicados pelos membros do MANAS Lab.
