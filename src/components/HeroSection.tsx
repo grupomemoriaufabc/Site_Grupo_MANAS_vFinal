@@ -84,7 +84,7 @@ const HeroSection = () => {
           Laboratório de Pesquisa em Neurociência
         </p>
         <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl leading-tight text-foreground mb-6">
-          Laboratório MANAS
+          MANAS
         </h1>
         <p className="text-lg sm:text-xl leading-relaxed text-muted-foreground max-w-2xl mx-auto font-body">
           Nosso grupo de pesquisa, liderado pelas professoras Paula Ayako Tiba, Tatiana Lima Ferreira e Raquel Vecchio Fornari, dedica-se ao estudo das neurociências com foco nos mecanismos neurais, farmacológicos e cognitivos que regem a aprendizagem, a memória e o comportamento. Nossas linhas de pesquisa investigam o papel dos núcleos da base e dos circuitos estriatais na memoria e tomada de decisão voluntária ou habitual, a modulação da memória emocional e contextual pelo estresse, corticosterona e receptores neuroquímicos, além de explorarmos a neurobiologia dos sonhos e o desenvolvimento de ferramentas aplicadas à neuroeducação para a otimização do aprendizado
