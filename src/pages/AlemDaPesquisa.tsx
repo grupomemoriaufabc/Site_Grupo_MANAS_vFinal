@@ -35,7 +35,7 @@ const outreachProjects = [
   },
   {
     title: "Site Neuro",
-    url: null as string | null,
+    uurl: "https://neuro.ufabc.edu.br",
   },
 ];
 
@@ -111,7 +111,7 @@ const AlemDaPesquisa = () => {
                       {p.title}
                     </span>
                     <span className="block text-muted-foreground text-sm font-body">
-                      Em andamento
+                      
                     </span>
                   </span>
                 </div>
